@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dom-demo';
+  let x = document.getElementById("styleRed");   
+  x.style.color = "red";
 }
